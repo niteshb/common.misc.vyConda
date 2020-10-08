@@ -1,0 +1,3 @@
+{
+    "python.pythonPath": "${workspaceFolder}/../../python/vyAlias/tests/.venv/Scripts",
+}

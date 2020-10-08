@@ -1,0 +1,52 @@
+c
+    conda
+        v
+            --version
+        info
+            info
+        e
+            env
+                l
+                    list
+                r, rm, del
+                    remove --name <env_name>
+        c
+            create --prefix .\.condaEnv
+            config --set env_prompt "({name}) "
+            activate .\.condaEnv
+        cn
+            create --name <env_name>
+        a
+            activate <env_name>
+        d
+            config --set env_prompt "({default_env}) "
+            <= deactivate
+        l
+            list
+            snippet: packages in environment
+        s
+            search <package_name_pattern>
+        i
+            install <package_name_1> <package_name_2> ...
+        ic
+            install -c <channel> <package_name>
+        idr
+            install --dry-run <package_name_1> <package_name_2> ...
+        u
+            update --all
+        r, del
+            remove <package_name_1> <package_name_2> ...
+        con
+            config
+                ch
+                        a, add
+                            --append channels <channel>
+                        p, prepend
+                            --prepend channels <channel>
+                s
+                    --show
+        
+
+
+
+
